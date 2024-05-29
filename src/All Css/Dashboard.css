@@ -1,0 +1,42 @@
+.Dashboard{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    gap: 10px;
+    justify-content: center;
+    position: fixed;
+}
+h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.Dashboard-card{
+    height: 30%;
+    width: 24%;
+    background-color: #BFACC8;
+    cursor: pointer;
+    transition: all 0.5s;
+    box-shadow: 0 5px 20px  #BFACC8;
+}
+.Dashboard-card:hover{
+    border: 1px solid white;
+    transform: scale(1.05);
+    border-radius: 20px;
+}
+.Dashboard-card:active {
+    transform: scale(0.95) rotateZ(1.7deg);
+}
+.card-inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.card-icon{
+    height: 55px;
+    width: 55px;
+    padding: 10px;
+    margin-top: 70px;
+}

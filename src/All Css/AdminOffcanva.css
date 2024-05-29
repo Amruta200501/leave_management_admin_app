@@ -1,0 +1,42 @@
+.admin-Offcanva {
+    background-color: #4A4063;
+    border-radius: 15px;
+}
+
+.Admin-navbar {
+    background-color: #783F8E;
+    box-shadow: 0 5px 20px  #783F8E;
+    border-radius: 50px;                            
+    height: 50px;
+    margin: 5px;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Adminnav-brand {
+    font-weight: bolder;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+.nav-link:hover {
+    background-color: #726b85;
+    color: black;
+    border-radius: 50px;
+}
+.image{
+    height: 55px;
+    width: 55px;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: white;
+    margin-right: 10px;
+}
