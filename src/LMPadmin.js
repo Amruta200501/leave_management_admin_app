@@ -9,6 +9,7 @@ import Manager from '../src/Admin  img/icons8-manager-50.png'
 import Dashboard from '../src/Admin  img/icons8-dashboard-50.png'
 import Project from '../src/Admin  img/icons8-projects-50.png'
 import Bars from '../src/Admin  img/icons8-bars-64.png'
+import Leaves from '../src/Admin  img/icons8-leave-50.png'
 
 const LMPadmin = () => {
     const [isShow, setisShow] = useState(false)
@@ -43,7 +44,7 @@ const LMPadmin = () => {
                             <Link to='/projects' className='nav-link'><img src={Project} className='image' />   Projects</Link>
                         </Nav.Link>
                         <Nav.Link onClick={() => handlehide()}>
-                            <Link to='/leaves' className='nav-link'> Leaves</Link>
+                            <Link to='/leaves' className='nav-link'><img src={Leaves} className='image' />  Leaves</Link>
                         </Nav.Link>
                     </Nav>
                 </Offcanvas.Body>

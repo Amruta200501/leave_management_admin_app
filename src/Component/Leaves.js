@@ -26,7 +26,7 @@ const Leaves = () => {
 
     return (
         <div style={{ marginTop: '80px' }} className='Admin-Leaves'>
-            <button className='AdminDetail-navigator' onClick={() => navigator('/leavedetails')}> Leave Details<IoArrowRedoCircleOutline size={30} /></button>
+            <button className='AdminDetail-navigator' onClick={() => navigator('/leavedetails')}> Leave Details<IoArrowRedoCircleOutline size={30} className='svg'/></button>
             <Container>
                 <Row>
                     {

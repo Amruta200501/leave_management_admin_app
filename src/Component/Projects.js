@@ -24,7 +24,7 @@ const Projects = () => {
 
   return (
     <div className='AdminProjects' style={{ marginTop: '80px' }}>
-      <button className='AdminProjectsNavigator-button' onClick={() => navigator("/addproject")}>Add Projects<IoArrowRedoCircleOutline size={30}/></button>
+      <button className='AdminProjectsNavigator-button' onClick={() => navigator("/addproject")}>Add Projects<IoArrowRedoCircleOutline size={30} className='svg'/></button>
       <Container>
         <Row>
           {
