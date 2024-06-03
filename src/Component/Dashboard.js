@@ -1,9 +1,9 @@
 import React from 'react'
 import '../All Css/Dashboard.css'
-import HRicon from '../Admin  img/icons8-people-50.png'
-import Managericon from '../Admin  img/icons8-manager-50.png'
-import Employeeicon from '../Admin  img/icons8-employee-50.png'
-import Projecticon from '../Admin  img/icons8-projects-50.png'
+import HRicon from '../Adminimg/icons8-people-50.png'
+import Managericon from '../Adminimg/icons8-manager-50.png'
+import Employeeicon from '../Adminimg/icons8-employee-50.png'
+import Projecticon from '../Adminimg/icons8-projects-50.png'
 
 const Dashboard = () => {
   return (

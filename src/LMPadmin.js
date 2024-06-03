@@ -3,13 +3,13 @@ import { Container, Nav, Navbar, Offcanvas } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import { FaBarsStaggered } from "react-icons/fa6";
 import '../src/All Css/AdminOffcanva.css'
-import Employees  from '../src/Admin  img/icons8-employee-50.png';
-import HR from '../src/Admin  img/icons8-people-50.png'
-import Manager from '../src/Admin  img/icons8-manager-50.png'
-import Dashboard from '../src/Admin  img/icons8-dashboard-50.png'
-import Project from '../src/Admin  img/icons8-projects-50.png'
-import Bars from '../src/Admin  img/icons8-bars-64.png'
-import Leaves from '../src/Admin  img/icons8-leave-50.png'
+import Employees  from '../src/Adminimg/icons8-employee-50.png';
+import HR from '../src/Adminimg/icons8-people-50.png'
+import Manager from '../src/Adminimg/icons8-manager-50.png'
+import Dashboard from '../src/Adminimg/icons8-dashboard-50.png'
+import Project from '../src/Adminimg/icons8-projects-50.png'
+import Bars from '../src/Adminimg/icons8-bars-64.png'
+import Leaves from '../src/Adminimg/icons8-leave-50.png'
 
 const LMPadmin = () => {
     const [isShow, setisShow] = useState(false)
