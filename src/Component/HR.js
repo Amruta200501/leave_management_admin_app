@@ -74,7 +74,7 @@ const HR = () => {
           <p> HR Gender: {selectedHR. UserGender}</p>
           <p> HR Department: {selectedHR.UserDepartment}</p>
           <p> HR Joining Date: {selectedHR.UserJoiningDate}</p>
-          <p> HR Releaving Date: {selectedHR.UserReleavingDate}</p>
+          {/* <p> HR Releaving Date: {selectedHR.UserReleavingDate}</p> */}
         </Modal.Body>
         <Modal.Footer>
           <Button variant='primary' onClick={() => setshowSelected(false)}>OK</Button>

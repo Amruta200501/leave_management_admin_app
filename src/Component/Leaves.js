@@ -40,8 +40,8 @@ const Leaves = () => {
                     <p>{leave.LeaveEndDate}</p> */}
                     <p>Leave Applied Date:- {leave.LeaveAppliedDate}</p>
                     {/* <p>{leave.LeaveStatus}</p>
-                    <p>{leave.LeavePeriod}</p>
-                    <p>{leave.AdminResponse}</p> */}
+                    <p>{leave.LeavePeriod}</p> */}
+                    <p>Admin Response:- {leave.AdminResponse}</p>
                   </Card.Body>
                   <button className='leaveDetail-btn' onClick={() => navigator("/leavedetails", { state: leave })}>
                     Leave Details

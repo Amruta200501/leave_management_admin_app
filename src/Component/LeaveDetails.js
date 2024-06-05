@@ -89,7 +89,7 @@ const LeaveDetails = () => {
               inline
             ></Form.Check>
           </div>
-          <button className="leaveDetails-btn" onClick={() => UpdateStatus()}>Approved Leave</button>
+          <button className="Approved-btn" onClick={() => UpdateStatus()}>Approved Leave</button>
           {/* <Button
             onClick={() => {
               UpdateStatus();

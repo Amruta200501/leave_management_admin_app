@@ -31,6 +31,7 @@
 .addprojects-Form h2{
     margin-left: 30%;
     margin-bottom: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .adminproject-input {
@@ -44,6 +45,7 @@
     /* margin-top: 5%; */
     border-radius: 50px;
     opacity: 0.6;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .addprojects-Form .adminproject-input:focus {
@@ -52,6 +54,7 @@
     box-shadow: inset 20px 20px 60px #e2d3ea,
         inset -20px -20px 60px #e2d3ea;
     transition: 0.3s;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 /* .addproject-btn {
@@ -65,6 +68,7 @@
     margin-bottom: 20px;
     font-size: large;
 } */
+
 .addproject-btn {
     padding: 15px 20px;
     font-size: 16px;
@@ -76,6 +80,7 @@
     z-index: 1;
     margin-top: 40px;
     margin-left: 38%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
   }
   
   .addproject-btn::after,

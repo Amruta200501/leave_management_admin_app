@@ -11,14 +11,14 @@ const Dashboard = () => {
       <div className='Dashboard-card'>
         <div className='card-inner'>
           <h3>HR</h3>
-          <h1>10</h1>
+          <h1>2</h1>
         </div>
         <img src={HRicon} className='card-icon' /> 
       </div>
       <div className='Dashboard-card'>
         <div className='card-inner'>
           <h3>Managers</h3>
-          <h1>10</h1>
+          <h1>5</h1>
         </div>
         <img src={Managericon} className='card-icon' /> 
       </div>

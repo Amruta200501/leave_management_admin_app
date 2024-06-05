@@ -19,18 +19,21 @@
     font-weight: bolder;
     display: flex;
     flex-direction: row;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .nav-link {
     text-decoration: none;
     font-weight: bold;
     color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .nav-link:hover {
     background-color: #726b85;
     color: black;
     border-radius: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .image{
     height: 55px;

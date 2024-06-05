@@ -36,7 +36,7 @@
     border: solid #BFACC8;
     font-size: large;
 } */
-.leaveDetails-btn {
+.Approved-btn {
     padding: 15px 20px;
     font-size: 16px;
     background: transparent;
@@ -44,10 +44,11 @@
     position: relative;
     z-index: 1;
     margin-top: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
   }
   
-  .leaveDetails-btn::after,
-  .leaveDetails-btn::before {
+  .Approved-btn::after,
+  .Approved-btn::before {
     content: '';
     position: absolute;
     bottom: 0;
@@ -56,7 +57,7 @@
     transition: all .4s;
   }
   
-  .leaveDetails-btn::before {
+  .Approved-btn::before {
     transform: translate(0%, 0%);
     width: 100%;
     height: 100%;
@@ -64,7 +65,7 @@
     border-radius: 10px;
   }
   
-  .leaveDetails-btn::after {
+  .Approved-btn::after {
     transform: translate(10px, 10px);
     width: 35px;
     height: 35px;
@@ -73,20 +74,20 @@
     border-radius: 50px;
   }
   
-  .leaveDetails-btn:hover::before {
+  .Approved-btn:hover::before {
     transform: translate(5%, 20%);
     width: 110%;
     height: 110%;
   }
   
-  .leaveDetails-btn:hover::after {
+  .Approved-btn:hover::after {
     border-radius: 10px;
     transform: translate(0, 0);
     width: 100%;
     height: 100%;
   }
   
-  .leaveDetails-btn:active::after {
+  .Approved-btn:active::after {
     transition: 0s;
     transform: translate(0, 5%);
   }

@@ -73,7 +73,7 @@ const Empolyees = () => {
           <p> Employee Gender: {selectedEmployees. UserGender}</p>
           <p> Employee Department: {selectedEmployees.UserDepartment}</p>
           <p> Employee Joining Date: {selectedEmployees.UserJoiningDate}</p>
-          <p> Employee Releaving Date: {selectedEmployees.UserReleavingDate}</p>
+          {/* <p> Employee Releaving Date: {selectedEmployees.UserReleavingDate}</p> */}
         </Modal.Body>
         <Modal.Footer>
           <Button variant='primary' onClick={() => setshowSelected(false)}>OK</Button>
